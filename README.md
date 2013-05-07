@@ -6,7 +6,7 @@
 
 Inspired by Tony Stark's "phone home" system in *Iron Man 3*, **beacon** is a php-based twilio application which sends distress messages to a list of contacts. Call your personal beacon (a Twilio-provided phone number), enter your pin, and record your message. Contacts receive a call with your emergency recording as well as a download link via SMS.
 
-Natural disasters, terrorist attacks, smaller emergencies could all be made more bearable with the help of something like beacon. Hell, it's an easily configureable way to get a message out to any large group of people.
+Natural disasters, terrorist attacks and smaller emergencies could all be made more bearable with the help of something like beacon. Hell, it's an easily configureable way to get a message out to any large group of people.
 
 ## Set-up
 
