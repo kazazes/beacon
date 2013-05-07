@@ -10,7 +10,7 @@ Natural disasters, terrorist attacks, smaller emergencies could all be made more
 
 ## Set-up
 
-Setting up **beacon** is dead simple. Upload the scripts, rename `beacon.ini.default` to `beacon.ini` and fill out your config. Point your Twilio voice request URL to the `intro.php` file and you're all set.
+Setting up **beacon** is dead simple. Rename `beacon.ini.default` to `beacon.ini` and fill out your config. Point your Twilio voice request URL to the `intro.php` file and you're all set.
 
 beacon is entirely configureable via the `beacon.ini` file. It uses the Twilio and bit.ly API for link shortening. Set your API keys, messages and authcode and you're set to go.  
 
