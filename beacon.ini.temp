@@ -1,0 +1,20 @@
+[application]
+dial_in_auth_code = "1111" 
+application_root = "http://www.peterk.co/phone-home/"
+call_text = "Peter left you a message. It will loop continuously until you hang up."
+sms_text = "Listen to Peter's message. &url"
+
+[twilio]
+api_sid = "twilioSid"
+api_token = "twilioToken"
+authd_phone = "XXXXXXXXXX"
+
+[emergency_contacts]
+contacts[] = "XXXXXXXXXX"
+contacts[] = "YYYYYYYYYY"
+contacts[] = "ZZZZZZZZZZ"
+
+[bitly]
+; https://bitly.com/a/your_api_key
+bitly_login = "bitlyLogin"
+bitly_token = "bitlyToken"
