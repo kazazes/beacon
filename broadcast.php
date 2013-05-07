@@ -8,7 +8,7 @@
 	$message_url = $_POST['RecordingUrl'];
 	$shortener = new Bitly($ini_array["bitly_login"], $ini_array["bitly_token"]);
 	$bitly_response = $shortener->shorten($message_url);
-	$short_url = $bitly_responsep['url'];
+	$short_url = $bitly_response['url'];
 
 
 	// Twilio REST API version

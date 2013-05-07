@@ -5,7 +5,7 @@
 	$ini_array = parse_ini_file("beacon.ini");
 	$inputted_code = $_POST["Digits"];
 
-	if ($inputted_code == $ini_array[auth_code]) {
+	if ($inputted_code == $ini_array["dial_in_auth_code"]) {
 		$response = new Services_Twilio_Twiml();
 		$record = $response->record(array('action' => 'broadcast.php', 'finishOnKey' => '#', 'playBeep' => true));
 		$record->say("After you've inputted your message, press pound.");

@@ -45,6 +45,8 @@ This all of course depends on having a well-stocked Twilio account. AFAIK you ca
 
 Movies are chock full of times when something like **beacon** would be useful. Giving it a few seconds of thought, [Extremely Loud and Incredibly Close](http://www.youtube.com/watch?v=dvkB0OmLGDc) comes to mind first. It's something I think many would find useful to have. I don't think I have to go in to too much detail here.
 
+There are dozens and dozens of ways to extend this, have at it. I'm satisfied with this simple version of it.
+
 ##Disclaimer
 
 I put this together in ~~a day~~ an hour. Syntax ain't pretty but she works. Do whatever you want with this.
